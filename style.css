@@ -9,24 +9,13 @@
 body {
   background: #22212c;
   height: 100vh;
+  min-width: auto;
+  max-width: auto;
 }
 
 body * {
   font-family: "Inter", sans-serif;
   color: white;
-}
-
-/* Container */
-
-#container {
-  border: 1px solid red;
-  margin: 40px;
-  position: absolute;
-  left: 208.5px;
-  top: 372px;
-  max-width: 1440px;
-  min-height: 1767px;
-  width: 100%;
 }
 
 /* Profile */
