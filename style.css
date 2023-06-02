@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body */
+
+body {
+  background: #22212c;
+  height: 100vh;
+}
+
+body * {
+  font-family: "Inter", sans-serif;
+  color: white;
+}
+
+/* Container */
+
+#container {
+  border: 1px solid red;
+  margin: 0;
+  position: relative;
+  left: 208.5px;
+  top: 372px;
+  max-width: 1440px;
+  min-height: 1767px;
+  width: 100%;
+}
+
+/* Profile */
+
+#profile {
+  background: #302f3d;
+  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  width: 348px;
+  height: 292px;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+#profile img {
+  border: 1px solid yellow;
+  border-radius: 50%;
+  width: 128px;
+  margin-top: 32px;
+  margin-left: 110px;
+  position: relative;
+}
+
+#profile p1 {
+  position: absolute;
+  width: 196px;
+  height: 26px;
+  left: 120px;
+  top: 230px;
+  font-size: 23px;
+  font-weight: 500;
+}
+
+#profile p2 {
+  position: absolute;
+  width: 128px;
+  height: 17px;
+  left: 150px;
+  top: 266px;
+  font-size: 15px;
+}
+
+/*box 1 links */
+
+#box1 {
+  border: 1px solid green;
+  position: absolute;
+  width: 348px;
+  height: 348px;
+  left: 40px;
+  top: 362px;
+}
+
+/* rodapé */
+
+#rodape {
+  border: 1px solid orange;
+  position: absolute;
+  text-align: center;
+  width: 206px;
+  height: 19px;
+  left: 617px;
+  top: 1728px;
+  font-size: 14px;
+  font-weight: 400;
+}
