@@ -88,6 +88,39 @@ body * {
   text-decoration: none;
 }
 
+/* box 2 */
+
+#box2 {
+  background: #302f3d;
+  border-radius: 20px;
+  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  min-width: 952px;
+  width: auto;
+  height: 86px;
+  top: 40px;
+  left: 448px;
+  right: 40px;
+  
+}
+
+#box2 p {
+  display: flex;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  margin-top: 30px;
+  margin-left: 30px;
+  justify-content: space-between;
+}
+
+#box2 a {
+  font-size: 14px;
+  font-weight: 400;
+  margin-right: 30px;
+  text-decoration: none;
+}
+
 /* rodapé */
 footer {
   position: absolute;
