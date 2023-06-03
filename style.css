@@ -195,11 +195,11 @@ body * {
 /* rodapé */
 
 footer {
-  position: flex;
+  position: absolute;
   bottom: 0;
   width: 100%;
+  height: 2.5rem;
   text-align: center;
-  justify-content: end;
   font-size: 14px;
   font-weight: 400;
 }
