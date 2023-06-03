@@ -61,12 +61,31 @@ body * {
 /*box 1 links */
 
 #box1 {
-  border: 1px solid green;
+  background: #302f3d;
+  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
   position: absolute;
   width: 348px;
   height: 348px;
   left: 40px;
   top: 362px;
+}
+#sociallinks p {
+  display: flex;
+  position: relative;
+  font-size: 12px;
+  padding: 24px;
+  justify-content: center;
+  justify-content: space-between;
+  font-weight: 500;
+}
+
+#sociallinks ion-icon {
+  font-size: 20px;
+}
+
+#sociallinks a {
+  text-decoration: none;
 }
 
 /* rodapé */
